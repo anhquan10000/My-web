@@ -1,0 +1,146 @@
+a{
+    color: black;
+}
+/* ------------------------------------LINK ADDRESS------------------------------------ */
+#link-address a{
+    color: #68cfe9;
+    font-size: 18px;
+}
+.blue{
+    color: #68cfe9;
+}
+.link-address{
+    margin-bottom: 50px;
+}
+#content .black{
+    color: black;
+}
+#content .black:hover{
+    color: #68cfe9;
+}
+/* ------------------------------------content------------------------------------ */
+
+.slider_1 img{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 120px;
+}
+
+.pro-product{
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+h1{
+    text-align: center;
+    font-size: 52px;
+    margin: 0 0 20px 0;
+
+}
+.intro-product{
+    text-align: center;
+}
+.price{
+    font-size: 30px;
+}
+.price-num{
+    font-size: 40px;
+}
+#buy-amount{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+#buy-amount button{
+    min-width: 30px;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    background-color: aliceblue;
+    margin: 0 5px;
+}
+#buy-amount button:hover{
+    background-color: #85c7f1;
+}
+#buy-amount input{
+    min-width: 40px;
+    width: 60px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+
+}
+.buy-now{
+    height: 80px;
+    width: 280px;
+    min-width: 200px;
+    background-color:#68cfe9;
+    color: black;
+    font-size: 27px;
+    margin: 50px 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 3%;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+
+}
+.buy-now:hover{
+    background-color: #eb603ae2;
+}
+.product-description{
+    margin-top: 60px;
+}
+.product-description h2{
+    border-bottom: 3px solid #68cfe9;
+    display: inline-block;
+
+}
+.product-description p{
+    font-size: 20px;
+}
+#section-category{
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+}
+.list-products{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+}
+
+.product-1 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.product-1:hover img{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.product-1:hover span{
+    color: #68cfe9;
+}
+@media screen and (max-width: 994px)  {
+
+    /* 
+        COntent
+*/
+      .list-products{
+        grid-template-columns: 50% 50% !important; 
+      }
+    .product-1 {
+        margin-bottom: 50px;
+    }
+    .pro-product{
+        display: grid;
+        grid-template-columns: 100%;
+    
+    }
+    .img-product{
+        text-align: center;
+    }
+  }

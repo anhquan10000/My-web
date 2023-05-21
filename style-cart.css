@@ -1,0 +1,168 @@
+/* ------------------------------------LINK ADDRESS------------------------------------ */
+#link-address a{
+    color: #68cfe9;
+    font-size: 18px;
+}
+.blue{
+    color: #68cfe9;
+}
+.link-address{
+    margin-bottom: 50px;
+}
+#content .black{
+    color: black;
+}
+#content .black:hover{
+    color: #68cfe9;
+}
+
+/* ------------------------------------Nút tăng giảm số lượng------------------------------------ */
+#buy-amount{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    position: absolute;
+    top: 17%;
+    left: 64%;
+}
+
+#buy-amount button{
+    min-width: 30px;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    background-color: aliceblue;
+    margin: 0 5px;
+}
+#buy-amount button:hover{
+    background-color: #85c7f1;
+}
+#buy-amount input{
+    min-width: 40px;
+    height: 30px;
+    width: 60px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+
+}
+/*  */
+.container-product-cart{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+input[type="checkbox"] {
+    width: 30px;
+    margin-left: 20px;
+}
+.container-product-cart >input{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 50px;
+}
+
+i.fa-solid.fa-trash-can.fa-2xl {
+    position: absolute;
+    right: 32px;
+    top: 47%;
+    
+}
+i.fa-solid.fa-trash-can.fa-2xl:hover{
+    color: red;
+    
+}
+.list-product-cart{
+    background-color: rgb(91 160 109 / 47%);
+    border-radius: 9px;
+    padding: 30px;
+}
+
+.container-product-cart img{
+    height: 132px;
+    margin: 20px 0;
+}
+.product-cart{
+    border-radius: 27px;
+    background: #ffffff;
+    border: none;
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 24% 35% 15% 5% 5%;
+    margin-bottom: 20px;
+}
+.name-product{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+
+
+/*   ---------------- */
+.into-money{
+    
+    display: grid;
+    grid-template-rows: 40px 40px 40px;
+    background-color: rgb(91 160 109 / 47%);
+    margin-left: 20px;
+    padding-top: 60px;
+    padding: 60px 40px 0 20px;
+    border-radius: 20px;
+    height: 250px;
+}
+.into-money p{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+}
+.into-money .into-money-top{
+    border-bottom: 2px solid #333333;
+    
+}
+.red-right{
+    color: red;
+    float: right;
+}
+.into-money button{
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    height: 60px;
+    width: 100%;
+    background-color: #68cfe9;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.into-money button:hover{
+    background-color: red;
+}
+@media screen and (max-width: 994px)  {
+
+    /* 
+        COntent
+*/
+.container-product-cart{
+    grid-template-columns: 100%;
+
+    gap:50px;
+}
+.into-money{
+    margin: 0;;
+}
+.product-cart {
+    grid-template-columns: 12% 32% 70%;
+    margin-bottom: 20px;
+}
+.name-product {
+    grid-template-rows: 30% 50%;
+}
+#buy-amount {
+
+    top: 38%;
+    left: 45%;
+}
+  }

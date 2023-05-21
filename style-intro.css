@@ -1,0 +1,55 @@
+/* ------------------------------------LINK ADDRESS------------------------------------ */
+#content a{
+    color: #68cfe9;
+    font-size: 18px;
+}
+.link-address{
+    margin-bottom: 50px;
+}
+#content .home{
+    color: black;
+}
+#content .home:hover{
+    color: #68cfe9;
+
+}
+/* ------------------------------------content------------------------------------ */
+.intro-content {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 30px;
+    padding: 40px;
+    text-align: center;
+}
+.intro-content >img{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    background-color: #43baff;
+}
+.intro-container{
+    background-color: #dadfe0;
+    padding: 40px;
+    border-radius:30px ;
+    
+}
+.intro-container h1{
+    color: #4072c7;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 994px)  {
+.intro-content {
+
+    grid-template-columns: 100%;
+    align-items: center;
+}
+.intro-container{
+    text-align: center;
+}
+.intro-content >img{
+    margin: auto;
+}
+  }
